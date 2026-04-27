@@ -17,18 +17,18 @@ Em problemas de eventos raros, o maior desafio não é a acurácia, mas sim a ca
 
 ## ⚙️ Metodologia e Engenharia de Dados
 
-## **1.** Tratamento de Dados e Scaling 
+# **1.** Tratamento de Dados e Scaling 
 
 Como as variáveis Time e Amount possuem escalas e magnitudes distintas das demais (que já passaram por uma transformação PCA), apliquei o RobustScaler. Essa técnica é ideal para dados com outliers, garantindo que o modelo não seja enviesado por valores extremos.
 
-## **2.** Gerenciamento de Desbalanceamento (Imbalanced Data) 
+# **2.** Gerenciamento de Desbalanceamento (Imbalanced Data) 
 
 Para evitar que o modelo apenas "aprendesse" a classe majoritária, foram implementadas e comparadas estratégias de:
 
 Under-sampling: Redução da classe majoritária para equilibrar o dataset. 
 Avaliação de Métricas: Foco em Recall e Precision, abandonando a métrica de Acurácia (que seria enganosa neste cenário).
 
-## **3.** Avaliação de Performance 
+# **3.** Avaliação de Performance 
 
 O modelo foi validado utilizando Matrizes de Confusão e a curva AUPRC (Area Under the Precision-Recall Curve), que é a métrica mais robusta para conjuntos de dados desproporcionais.
 
