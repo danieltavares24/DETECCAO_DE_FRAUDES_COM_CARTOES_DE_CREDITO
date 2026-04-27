@@ -9,11 +9,11 @@ Em problemas de eventos raros, o maior desafio não é a acurácia, mas sim a ca
 
 ## 🛠️ Stack Tecnológica
 
-* **Linguagem:** Python 
-* **Processamento de Dados**: Pandas, NumPy 
-* **Visualização Técnica:** Seaborn, Matplotlib 
-* **Machine Learning:** Scikit-Learn 
-* **Algoritmos Utilizados:** Regressão Logística, Random Forest e Decision Trees.
+* **Machine Learning:** Scikit-Learn
+* **Interface Web:** Streamlit
+* **Serialização do Modelo:** Joblib
+* **Manipulação de Dados:** Pandas
+* **Linguagem:** Python 3.x
 
 ## ⚙️ Metodologia e Engenharia de Dados
 
