@@ -32,6 +32,11 @@ Avaliação de Métricas: Foco em Recall e Precision, abandonando a métrica de 
 
 O modelo foi validado utilizando Matrizes de Confusão e a curva AUPRC (Area Under the Precision-Recall Curve), que é a métrica mais robusta para conjuntos de dados desproporcionais.
 
+## Modelo em Produção
+
+* Deploy com Streamlit: O projeto conta com uma interface interativa onde o usuário pode inserir os dados da transação e receber a predição em tempo real. 
+* Otimização com Joblib: Utilização da biblioteca Joblib para persistência do modelo, garantindo um carregamento eficiente e rápido dentro da aplicação.
+
 ## 📈 Resultados
 
 * O pipeline conseguiu isolar as anomalias com alta taxa de Recall, garantindo que a maioria das fraudes fosse interrompida antes da liquidação. 
