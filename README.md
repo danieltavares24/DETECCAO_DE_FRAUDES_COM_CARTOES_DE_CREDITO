@@ -49,5 +49,5 @@ Este projeto de Detecção de Fraudes é o alicerce para sistemas de Manutençã
 
 ## 👨‍💻 Autor
 
-**Daniel Tavares de França** 
+**Daniel Tavares de França**  
 **Engenheiro de Machine Learning em formação | Especialista em IA Industrial**
